@@ -20,7 +20,6 @@ function readRootBuildGradle() {
 function addDependencies(buildGradle) {
   // find the known line to match
   var match = buildGradle.match(/^(\s*)classpath 'com.android.tools.build(.*)/m);
-  console.log("match",match)
   var whitespace = match[1];
 
   // modify the line to add the necessary dependencies
@@ -37,6 +36,7 @@ function addDependencies(buildGradle) {
 function addRepos(buildGradle) {
   // find the known line to match
   var match = buildGradle.match(/^(\s*)jcenter\(\)/m);
+  console.log("match",match)
   var whitespace = match[1];
 
   // modify the line to add the necessary repo
