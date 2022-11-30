@@ -3,6 +3,11 @@
 The Marketo Mobile SDK allows integration with Marketo Mobile Engagement (MME).
 
 ## Plugin Change Log
+v0.8.8 (May 25, 2022)
+
+- Added support for Android API Level 31
+- Mnimum support Android API Level is now 21
+
 v0.8.4 (March 22, 2021)
 - Fixed Bugs 
 
